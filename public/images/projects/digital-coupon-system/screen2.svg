@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <rect width="1200" height="750" fill="#f4f4f5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="48" rx="6" fill="#fafafa"/>
+  <line x1="40" y1="88" x2="1160" y2="88" stroke="#e4e4e7" stroke-width="1.5"/>
+  <text x="68" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Point of Sale Scanner Live Interface</text>
+
+  <rect x="70" y="115" width="1060" height="550" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="100" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#18181b">Cashier Terminal #02 (Main Branch)</text>
+
+  <rect x="100" y="180" width="500" height="450" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="130" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Optical Scanner Feed</text>
+  
+  <rect x="130" y="240" width="440" height="260" rx="4" fill="#18181b"/>
+  <!-- Target Reticle -->
+  <line x1="200" y1="290" x2="250" y2="290" stroke="#ffffff" stroke-width="2"/>
+  <line x1="200" y1="290" x2="200" y2="340" stroke="#ffffff" stroke-width="2"/>
+  <line x1="500" y1="290" x2="450" y2="290" stroke="#ffffff" stroke-width="2"/>
+  <line x1="500" y1="290" x2="500" y2="340" stroke="#ffffff" stroke-width="2"/>
+  <line x1="200" y1="450" x2="250" y2="450" stroke="#ffffff" stroke-width="2"/>
+  <line x1="200" y1="450" x2="200" y2="400" stroke="#ffffff" stroke-width="2"/>
+  <line x1="500" y1="450" x2="450" y2="450" stroke="#ffffff" stroke-width="2"/>
+  <line x1="500" y1="450" x2="500" y2="400" stroke="#ffffff" stroke-width="2"/>
+  <text x="275" y="375" font-family="monospace" font-size="13" fill="#22c55e">QR CODE ACQUIRED</text>
+
+  <rect x="130" y="525" width="440" height="60" rx="3" fill="#fafafa" stroke="#16a34a" stroke-width="1"/>
+  <text x="150" y="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#16a34a">Coupon AA-2024-8902-DX Accepted (-$15.00)</text>
+
+  <!-- Right Order Summary -->
+  <rect x="630" y="180" width="470" height="450" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="660" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Register Bill Summary</text>
+  
+  <text x="660" y="270" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">Subtotal (3 Items)</text>
+  <text x="1030" y="270" font-family="monospace" font-size="13" fill="#18181b">$64.50</text>
+  <line x1="660" y1="290" x2="1070" y2="290" stroke="#f4f4f5" stroke-width="1"/>
+
+  <text x="660" y="325" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#16a34a">Digital Voucher (20% OFF)</text>
+  <text x="1025" y="325" font-family="monospace" font-size="13" font-weight="600" fill="#16a34a">-$12.90</text>
+  <line x1="660" y1="345" x2="1070" y2="345" stroke="#f4f4f5" stroke-width="1"/>
+
+  <text x="660" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">Tax &amp; Service</text>
+  <text x="1038" y="380" font-family="monospace" font-size="13" fill="#18181b">$4.13</text>
+  <line x1="660" y1="400" x2="1070" y2="400" stroke="#e4e4e7" stroke-width="1.5"/>
+
+  <text x="660" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#18181b">Net Total Due</text>
+  <text x="1005" y="445" font-family="monospace" font-size="20" font-weight="700" fill="#18181b">$55.73</text>
+
+  <rect x="660" y="500" width="410" height="48" rx="4" fill="#18181b"/>
+  <text x="795" y="530" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#ffffff">Finalize Checkout</text>
+</svg>

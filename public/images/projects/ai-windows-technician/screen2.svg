@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <rect width="1200" height="750" fill="#f4f4f5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="48" rx="6" fill="#fafafa"/>
+  <line x1="40" y1="88" x2="1160" y2="88" stroke="#e4e4e7" stroke-width="1.5"/>
+  <text x="68" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Interactive Diagnostic Interview &amp; Reasoning Log</text>
+
+  <!-- Left Chat / Dialogue -->
+  <rect x="70" y="115" width="520" height="560" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="95" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#71717a">SYSTEM &lt;&gt; TECHNICIAN DIALOGUE</text>
+
+  <rect x="95" y="170" width="470" height="75" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="110" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#18181b">AI Windows Technician:</text>
+  <text x="110" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#3f3f46">Did the blue screen or freeze happen immediately after installing KB5034441 or during sleep wake-up?</text>
+
+  <rect x="95" y="260" width="470" height="65" rx="4" fill="#18181b"/>
+  <text x="110" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#ffffff">Technician Response:</text>
+  <text x="110" y="307" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#d4d4d8">It occurred during reboot following the cumulative update.</text>
+
+  <rect x="95" y="340" width="470" height="90" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="110" y="365" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#18181b">AI Windows Technician:</text>
+  <text x="110" y="390" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#3f3f46">Understood. WinRE partition size check indicates insufficient recovery space (error 0x80070643). Formulating partition resize workflow.</text>
+
+  <!-- Right Reasoning Breakdown -->
+  <rect x="610" y="115" width="520" height="560" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="635" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#71717a">REPAIR SEQUENCE SPECIFICATION</text>
+  
+  <rect x="635" y="170" width="470" height="470" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="655" y="205" font-family="monospace" font-size="12" fill="#18181b"># Step 1: Query partition table</text>
+  <text x="655" y="230" font-family="monospace" font-size="11" fill="#71717a">reagentc /info</text>
+  
+  <text x="655" y="270" font-family="monospace" font-size="12" fill="#18181b"># Step 2: Disable Windows RE temporarily</text>
+  <text x="655" y="295" font-family="monospace" font-size="11" fill="#71717a">reagentc /disable</text>
+
+  <text x="655" y="335" font-family="monospace" font-size="12" fill="#18181b"># Step 3: Shrink OS volume by 750MB</text>
+  <text x="655" y="360" font-family="monospace" font-size="11" fill="#71717a">diskpart /s resize_script.txt</text>
+
+  <text x="655" y="400" font-family="monospace" font-size="12" fill="#18181b"># Step 4: Re-enable and verify Windows RE</text>
+  <text x="655" y="425" font-family="monospace" font-size="11" fill="#71717a">reagentc /enable</text>
+
+  <rect x="655" y="470" width="430" height="50" rx="3" fill="#ffffff" stroke="#16a34a" stroke-width="1"/>
+  <text x="675" y="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#16a34a">Safety Pre-Check: Safe to execute. Zero data loss risk.</text>
+</svg>

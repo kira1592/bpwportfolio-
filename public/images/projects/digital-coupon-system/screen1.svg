@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <rect width="1200" height="750" fill="#f4f4f5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="48" rx="6" fill="#fafafa"/>
+  <line x1="40" y1="88" x2="1160" y2="88" stroke="#e4e4e7" stroke-width="1.5"/>
+  <text x="68" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Campaign Generator &amp; Discount Configuration</text>
+
+  <rect x="80" y="120" width="1040" height="540" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="115" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#18181b">Create New Promotional Voucher Batch</text>
+  
+  <rect x="115" y="200" width="480" height="44" rx="3" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="135" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Campaign Name: Summer Season Appreciation</text>
+
+  <rect x="620" y="200" width="480" height="44" rx="3" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="640" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Discount Rule: Fixed $15 OFF (Min Order $50)</text>
+
+  <rect x="115" y="265" width="480" height="44" rx="3" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="135" y="293" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Usage Policy: Single-Use Per Verified Device</text>
+
+  <rect x="620" y="265" width="480" height="44" rx="3" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="640" y="293" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Validity: 30 Days From Issue</text>
+
+  <rect x="115" y="335" width="985" height="170" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="140" y="375" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Security &amp; Anti-Fraud Parameters</text>
+  <text x="140" y="405" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">✓ Cryptographic HMAC signature embedded in QR payload.</text>
+  <text x="140" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">✓ Real-time websocket atomic lock prevents concurrent cashier redemptions.</text>
+  <text x="140" y="465" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">✓ POS cash register API integration ready via REST webhook.</text>
+
+  <rect x="115" y="530" width="220" height="44" rx="4" fill="#18181b"/>
+  <text x="148" y="557" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Issue Campaign Batch</text>
+</svg>

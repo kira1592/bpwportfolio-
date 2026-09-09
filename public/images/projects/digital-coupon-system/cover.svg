@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <rect width="1200" height="750" fill="#f4f4f5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="48" rx="6" fill="#fafafa"/>
+  <line x1="40" y1="88" x2="1160" y2="88" stroke="#e4e4e7" stroke-width="1.5"/>
+  <circle cx="68" cy="64" r="6" fill="#d4d4d8"/>
+  <circle cx="90" cy="64" r="6" fill="#d4d4d8"/>
+  <circle cx="112" cy="64" r="6" fill="#d4d4d8"/>
+  <text x="140" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Digital Coupon System — Authentic Asia Promotion Engine</text>
+
+  <!-- Left: Customer Voucher View -->
+  <rect x="80" y="120" width="460" height="540" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <rect x="110" y="150" width="400" height="480" rx="4" fill="#ffffff" stroke="#18181b" stroke-width="1.5"/>
+  
+  <text x="140" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#71717a">AUTHENTIC ASIA REWARDS</text>
+  <text x="140" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" fill="#18181b">20% OFF</text>
+  <text x="140" y="265" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">Valid on dine-in orders exceeding $40.</text>
+  
+  <line x1="140" y1="290" x2="480" y2="290" stroke="#e4e4e7" stroke-dasharray="4 4" stroke-width="1.5"/>
+
+  <!-- Barcode / QR Simulation -->
+  <rect x="170" y="320" width="280" height="150" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <!-- Barcode lines -->
+  <rect x="190" y="340" width="4" height="80" fill="#18181b"/>
+  <rect x="200" y="340" width="8" height="80" fill="#18181b"/>
+  <rect x="214" y="340" width="3" height="80" fill="#18181b"/>
+  <rect x="224" y="340" width="10" height="80" fill="#18181b"/>
+  <rect x="240" y="340" width="5" height="80" fill="#18181b"/>
+  <rect x="252" y="340" width="2" height="80" fill="#18181b"/>
+  <rect x="260" y="340" width="8" height="80" fill="#18181b"/>
+  <rect x="274" y="340" width="4" height="80" fill="#18181b"/>
+  <rect x="284" y="340" width="9" height="80" fill="#18181b"/>
+  <rect x="300" y="340" width="4" height="80" fill="#18181b"/>
+  <rect x="310" y="340" width="7" height="80" fill="#18181b"/>
+  <rect x="324" y="340" width="3" height="80" fill="#18181b"/>
+  <rect x="334" y="340" width="11" height="80" fill="#18181b"/>
+  <rect x="352" y="340" width="4" height="80" fill="#18181b"/>
+  <rect x="362" y="340" width="8" height="80" fill="#18181b"/>
+  <rect x="376" y="340" width="5" height="80" fill="#18181b"/>
+  <rect x="388" y="340" width="12" height="80" fill="#18181b"/>
+  <rect x="408" y="340" width="4" height="80" fill="#18181b"/>
+  <rect x="418" y="340" width="8" height="80" fill="#18181b"/>
+  <text x="210" y="445" font-family="monospace" font-size="13" font-weight="600" fill="#18181b">AA-2024-8902-DX</text>
+
+  <rect x="140" y="500" width="340" height="38" rx="3" fill="#18181b"/>
+  <text x="235" y="524" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Present at POS</text>
+
+  <!-- Right: Admin Scanner & Tracking Console -->
+  <rect x="570" y="120" width="550" height="540" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="600" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#18181b">POS Scanner &amp; Real-Time Verification</text>
+  
+  <rect x="600" y="185" width="490" height="70" rx="4" fill="#fafafa" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="620" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#16a34a">✓ Valid Coupon Verified</text>
+  <text x="620" y="238" font-family="monospace" font-size="12" fill="#52525b">Campaign: Weekend Dining Boost | Single-Use Lock: Active</text>
+
+  <!-- Tracking Log -->
+  <text x="600" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#71717a">RECENT REDEMPTIONS</text>
+
+  <rect x="600" y="310" width="490" height="290" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  
+  <text x="620" y="345" font-family="monospace" font-size="12" fill="#18181b">AA-2024-8902-DX</text>
+  <text x="790" y="345" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#52525b">Terminal #2 (Main Store)</text>
+  <text x="990" y="345" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#16a34a">REDEEMED</text>
+  <line x1="620" y1="365" x2="1070" y2="365" stroke="#e4e4e7" stroke-width="1"/>
+
+  <text x="620" y="395" font-family="monospace" font-size="12" fill="#18181b">AA-2024-8901-KF</text>
+  <text x="790" y="395" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#52525b">Terminal #1 (Express)</text>
+  <text x="990" y="395" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#16a34a">REDEEMED</text>
+  <line x1="620" y1="415" x2="1070" y2="415" stroke="#e4e4e7" stroke-width="1"/>
+
+  <text x="620" y="445" font-family="monospace" font-size="12" fill="#18181b">AA-2024-8899-PL</text>
+  <text x="790" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#52525b">Terminal #2 (Main Store)</text>
+  <text x="990" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#16a34a">REDEEMED</text>
+  <line x1="620" y1="465" x2="1070" y2="465" stroke="#e4e4e7" stroke-width="1"/>
+
+  <text x="620" y="495" font-family="monospace" font-size="12" fill="#18181b">AA-2024-8890-MN</text>
+  <text x="790" y="495" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#52525b">Terminal #3 (Takeaway)</text>
+  <text x="990" y="495" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#16a34a">REDEEMED</text>
+</svg>

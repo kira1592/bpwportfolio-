@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <rect width="1200" height="750" fill="#f4f4f5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="48" rx="6" fill="#fafafa"/>
+  <line x1="40" y1="88" x2="1160" y2="88" stroke="#e4e4e7" stroke-width="1.5"/>
+  <text x="68" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Payroll Data Ingestion &amp; Calculation Engine</text>
+
+  <rect x="70" y="115" width="1060" height="550" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="100" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#18181b">Wage Computation &amp; Deduction Rules</text>
+
+  <rect x="100" y="185" width="1000" height="440" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <rect x="100" y="185" width="1000" height="38" fill="#fafafa"/>
+  <text x="120" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">EMPLOYEE NAME</text>
+  <text x="320" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">HOURLY/BASE</text>
+  <text x="500" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">OVERTIME</text>
+  <text x="680" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">TAX &amp; DEDUCTIONS</text>
+  <text x="920" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">NET AMOUNT</text>
+
+  <!-- Row 1 -->
+  <line x1="100" y1="265" x2="1100" y2="265" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="120" y="245" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#18181b">Alex Vance</text>
+  <text x="320" y="245" font-family="monospace" font-size="13" fill="#52525b">$3,200.00</text>
+  <text x="500" y="245" font-family="monospace" font-size="13" fill="#18181b">+ $420.00 (14h)</text>
+  <text x="680" y="245" font-family="monospace" font-size="13" fill="#e11d48">- $457.60 (11.5%)</text>
+  <text x="920" y="245" font-family="monospace" font-size="14" font-weight="700" fill="#18181b">$3,512.40</text>
+
+  <!-- Row 2 -->
+  <line x1="100" y1="325" x2="1100" y2="325" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="120" y="305" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#18181b">Sarah Chen</text>
+  <text x="320" y="305" font-family="monospace" font-size="13" fill="#52525b">$2,900.00</text>
+  <text x="500" y="305" font-family="monospace" font-size="13" fill="#18181b">+ $210.00 (7h)</text>
+  <text x="680" y="305" font-family="monospace" font-size="13" fill="#e11d48">- $342.10 (11.0%)</text>
+  <text x="920" y="305" font-family="monospace" font-size="14" font-weight="700" fill="#18181b">$2,767.90</text>
+
+  <!-- Row 3 -->
+  <line x1="100" y1="385" x2="1100" y2="385" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="120" y="365" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#18181b">David Miller</text>
+  <text x="320" y="365" font-family="monospace" font-size="13" fill="#52525b">$2,400.00</text>
+  <text x="500" y="365" font-family="monospace" font-size="13" fill="#18181b">+ $360.00 (12h)</text>
+  <text x="680" y="365" font-family="monospace" font-size="13" fill="#e11d48">- $298.08 (10.8%)</text>
+  <text x="920" y="365" font-family="monospace" font-size="14" font-weight="700" fill="#18181b">$2,461.92</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <rect width="1200" height="750" fill="#f4f4f5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="48" rx="6" fill="#fafafa"/>
+  <line x1="40" y1="88" x2="1160" y2="88" stroke="#e4e4e7" stroke-width="1.5"/>
+  <circle cx="68" cy="64" r="6" fill="#d4d4d8"/>
+  <circle cx="90" cy="64" r="6" fill="#d4d4d8"/>
+  <circle cx="112" cy="64" r="6" fill="#d4d4d8"/>
+  <text x="140" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Laptop Stocks — Hardware Inventory Management</text>
+
+  <!-- Metrics Bar -->
+  <rect x="70" y="110" width="240" height="80" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="90" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#71717a">TOTAL ACTIVE UNITS</text>
+  <text x="90" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#18181b">142 Devices</text>
+
+  <rect x="330" y="110" width="240" height="80" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="350" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#71717a">READY FOR SALE</text>
+  <text x="350" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#16a34a">98 Units</text>
+
+  <rect x="590" y="110" width="240" height="80" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="610" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#71717a">INSPECTION / TESTING</text>
+  <text x="610" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#52525b">31 Units</text>
+
+  <rect x="850" y="110" width="280" height="80" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="870" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#71717a">RESERVED</text>
+  <text x="870" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#18181b">13 Units</text>
+
+  <!-- Inventory Table -->
+  <rect x="70" y="210" width="1060" height="460" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <rect x="70" y="210" width="1060" height="42" fill="#fafafa"/>
+  <line x1="70" y1="252" x2="1130" y2="252" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="90" y="237" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">SERIAL / SKU</text>
+  <text x="250" y="237" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">MODEL &amp; SPECIFICATIONS</text>
+  <text x="560" y="237" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">GRADE</text>
+  <text x="700" y="237" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">LOCATION</text>
+  <text x="880" y="237" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">STATUS</text>
+
+  <!-- Item 1 -->
+  <line x1="70" y1="310" x2="1130" y2="310" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="90" y="285" font-family="monospace" font-size="12" fill="#18181b">TP-T14-0891</text>
+  <text x="250" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#18181b">ThinkPad T14 Gen 3 (i7-1260P / 16GB / 512GB SSD)</text>
+  <text x="560" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Grade A</text>
+  <text x="700" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">Storage Rack B-04</text>
+  <text x="880" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#16a34a">In Stock</text>
+
+  <!-- Item 2 -->
+  <line x1="70" y1="368" x2="1130" y2="368" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="90" y="343" font-family="monospace" font-size="12" fill="#18181b">DL-LAT-5420</text>
+  <text x="250" y="343" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#18181b">Dell Latitude 5420 (i5-1145G7 / 16GB / 256GB SSD)</text>
+  <text x="560" y="343" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Grade A-</text>
+  <text x="700" y="343" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">Bench 2 (Testing)</text>
+  <text x="880" y="343" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">Under Test</text>
+
+  <!-- Item 3 -->
+  <line x1="70" y1="426" x2="1130" y2="426" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="90" y="401" font-family="monospace" font-size="12" fill="#18181b">HP-EB-840G8</text>
+  <text x="250" y="401" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#18181b">HP EliteBook 840 G8 (i7-1185G7 / 32GB / 1TB SSD)</text>
+  <text x="560" y="401" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Grade A+</text>
+  <text x="700" y="401" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">Showroom Bay 1</text>
+  <text x="880" y="401" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#16a34a">In Stock</text>
+
+  <!-- Item 4 -->
+  <line x1="70" y1="484" x2="1130" y2="484" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="90" y="459" font-family="monospace" font-size="12" fill="#18181b">AP-MBP-M1-14</text>
+  <text x="250" y="459" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#18181b">MacBook Pro 14&quot; (M1 Pro 8-Core / 16GB / 512GB)</text>
+  <text x="560" y="459" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Grade A</text>
+  <text x="700" y="459" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">Secure Vault A</text>
+  <text x="880" y="459" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#18181b">Reserved</text>
+</svg>

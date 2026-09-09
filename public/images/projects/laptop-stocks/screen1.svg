@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <rect width="1200" height="750" fill="#f4f4f5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="48" rx="6" fill="#fafafa"/>
+  <line x1="40" y1="88" x2="1160" y2="88" stroke="#e4e4e7" stroke-width="1.5"/>
+  <text x="68" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Hardware Specification &amp; Unit Detail View</text>
+
+  <rect x="70" y="115" width="1060" height="560" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  
+  <text x="100" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#18181b">Unit Record: TP-T14-0891</text>
+  <text x="100" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#71717a">Lenovo ThinkPad T14 Gen 3 | Registered: 2025-02-11</text>
+
+  <line x1="100" y1="205" x2="1100" y2="205" stroke="#e4e4e7" stroke-width="1"/>
+
+  <!-- Spec Grid -->
+  <rect x="100" y="230" width="310" height="120" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="120" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#71717a">PROCESSOR &amp; CHIPSET</text>
+  <text x="120" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Intel Core i7-1260P</text>
+  <text x="120" y="315" font-family="monospace" font-size="12" fill="#52525b">12 Cores (4P + 8E) / 16 Threads</text>
+
+  <rect x="440" y="230" width="310" height="120" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="460" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#71717a">MEMORY &amp; STORAGE</text>
+  <text x="460" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">16 GB DDR4 3200MHz</text>
+  <text x="460" y="315" font-family="monospace" font-size="12" fill="#52525b">512 GB NVMe PCIe 4.0 SSD</text>
+
+  <rect x="780" y="230" width="290" height="120" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="800" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#71717a">BATTERY &amp; THERMALS</text>
+  <text x="800" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Health: 94% (48.5 Wh)</text>
+  <text x="800" y="315" font-family="monospace" font-size="12" fill="#16a34a">Cycle Count: 82 (Passed)</text>
+
+  <!-- Condition Notes -->
+  <rect x="100" y="380" width="970" height="180" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="125" y="415" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#18181b">Inspection Checklist &amp; Testing Notes</text>
+  <text x="125" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#3f3f46">Display: Zero dead pixels, uniform backlight. Keyboard &amp; TrackPoint fully tested. Ports tested (2x Thunderbolt 4, 2x USB 3.2, 1x HDMI 2.0). Clean thermal paste repasted during intake inspection.</text>
+</svg>

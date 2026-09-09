@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <rect width="1200" height="750" fill="#f4f4f5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  <!-- Header -->
+  <rect x="40" y="40" width="1120" height="48" rx="6" fill="#fafafa"/>
+  <line x1="40" y1="88" x2="1160" y2="88" stroke="#e4e4e7" stroke-width="1.5"/>
+  <text x="68" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">System Evidence Collection &amp; Log Parser</text>
+  
+  <!-- Content -->
+  <rect x="70" y="120" width="1060" height="550" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="100" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#18181b">Evidence Snapshot #4092</text>
+  <text x="100" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#71717a">Target: Local Workstation (DESKTOP-8K21P) | Time: 09:14:22</text>
+
+  <!-- Table -->
+  <rect x="100" y="215" width="1000" height="40" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="120" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">SUBSYSTEM</text>
+  <text x="320" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">DIAGNOSTIC PROBE</text>
+  <text x="640" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">OBSERVED STATE</text>
+  <text x="960" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#52525b">STATUS</text>
+
+  <!-- Row 1 -->
+  <line x1="100" y1="305" x2="1100" y2="305" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="120" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#18181b">Windows Services</text>
+  <text x="320" y="285" font-family="monospace" font-size="12" fill="#52525b">Get-Service -Name wuauserv, bits</text>
+  <text x="640" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">wuauserv hung in STOP_PENDING</text>
+  <text x="960" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e11d48">FAULT</text>
+
+  <!-- Row 2 -->
+  <line x1="100" y1="355" x2="1100" y2="355" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="120" y="335" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#18181b">Storage Volumes</text>
+  <text x="320" y="335" font-family="monospace" font-size="12" fill="#52525b">Get-PhysicalDisk | Select HealthStatus</text>
+  <text x="640" y="335" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">NVMe SSD Health 98% (0 Bad Sectors)</text>
+  <text x="960" y="335" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#16a34a">NORMAL</text>
+
+  <!-- Row 3 -->
+  <line x1="100" y1="405" x2="1100" y2="405" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="120" y="385" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#18181b">Network Stack</text>
+  <text x="320" y="385" font-family="monospace" font-size="12" fill="#52525b">Test-NetConnection -Port 443</text>
+  <text x="640" y="385" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">DNS latency 18ms, Winsock clean</text>
+  <text x="960" y="385" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#16a34a">NORMAL</text>
+
+  <!-- Row 4 -->
+  <line x1="100" y1="455" x2="1100" y2="455" stroke="#f4f4f5" stroke-width="1"/>
+  <text x="120" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#18181b">Group Policy</text>
+  <text x="320" y="435" font-family="monospace" font-size="12" fill="#52525b">gpresult /r /scope computer</text>
+  <text x="640" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Domain GPO applied without conflicts</text>
+  <text x="960" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#16a34a">NORMAL</text>
+
+  <!-- Summary box -->
+  <rect x="100" y="480" width="1000" height="150" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="120" y="515" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Technician Summary</text>
+  <text x="120" y="545" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#52525b">Single fault confirmed in Windows Update service queue. Hardware, storage, and networking subcomponents are operating within healthy parameters.</text>
+</svg>

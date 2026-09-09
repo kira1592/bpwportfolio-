@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <rect width="1200" height="750" fill="#f4f4f5"/>
+  <rect x="40" y="40" width="1120" height="670" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="48" rx="6" fill="#fafafa"/>
+  <line x1="40" y1="88" x2="1160" y2="88" stroke="#e4e4e7" stroke-width="1.5"/>
+  <text x="68" y="69" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#18181b">Intake Registration &amp; Barcode Assignment</text>
+
+  <rect x="100" y="125" width="1000" height="520" rx="4" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="135" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#18181b">Register Inbound Laptop Shipment</text>
+  
+  <rect x="135" y="195" width="440" height="42" rx="3" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="150" y="222" font-family="monospace" font-size="12" fill="#71717a">Scan Serial Number / Service Tag...</text>
+
+  <rect x="600" y="195" width="440" height="42" rx="3" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="615" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#18181b">Brand: Lenovo | Model: ThinkPad X1 Carbon Gen 9</text>
+
+  <rect x="135" y="260" width="905" height="150" rx="3" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="155" y="295" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#18181b">Automated Hardware Probe Integration</text>
+  <text x="155" y="325" font-family="monospace" font-size="12" fill="#52525b">Detected via diagnostic flash drive: i7-1165G7 | 16GB LPDDR4x | 512GB NVMe | 1920x1200 IPS</text>
+  <text x="155" y="355" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#16a34a">✓ BIOS Serial matched OEM database. Warranty status: Out of warranty (Refurb candidate).</text>
+
+  <rect x="135" y="440" width="220" height="40" rx="4" fill="#18181b"/>
+  <text x="170" y="465" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Generate QR &amp; Label</text>
+</svg>

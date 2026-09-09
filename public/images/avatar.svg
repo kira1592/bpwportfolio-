@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#f4f4f5"/>
+  <circle cx="100" cy="100" r="99" fill="#fafafa" stroke="#e4e4e7" stroke-width="2"/>
+  <!-- Minimalist technician portrait silhouette / monogram -->
+  <circle cx="100" cy="74" r="32" fill="#27272a"/>
+  <path d="M46 162 C46 122, 70 114, 100 114 C130 114, 154 122, 154 162" fill="#27272a"/>
+  <circle cx="140" cy="60" r="14" fill="#18181b" stroke="#ffffff" stroke-width="3"/>
+  <path d="M135 60 L139 64 L146 56" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
