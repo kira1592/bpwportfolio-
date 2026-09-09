@@ -59,7 +59,7 @@ export const ContactSection: React.FC = () => {
         </p>
       </div>
 
-      {/* Desktop: Horizontal 4-col arrangement | Mobile: 2x2 grid with 12px rounded items */}
+      {/* Clean 4-column layout */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {contactMethods.map((method) => {
           const IconComponent = method.icon;
@@ -67,9 +67,9 @@ export const ContactSection: React.FC = () => {
             <a
               key={method.id}
               href={method.href}
-              target={method.isExternal ? '_blank' : undefined}
+              target={method.isExternal ? '_blank' : '_top'}
               rel={method.isExternal ? 'noopener noreferrer' : undefined}
-              className="group block p-4 sm:p-5 bg-white border border-neutral-200/90 rounded-xl hover:border-neutral-900 transition-all duration-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-900"
+              className="group block p-4 sm:p-5 bg-white border border-neutral-200/90 rounded-xl hover:border-neutral-900 transition-all duration-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-900 cursor-pointer"
               aria-label={`${method.label}: ${method.actionText}`}
             >
               <div className="flex flex-col h-full justify-between gap-4">

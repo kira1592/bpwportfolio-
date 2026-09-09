@@ -3,7 +3,7 @@ import profilePhoto from '../assets/images/bhone_profile_photo_1788972240168.jpg
 
 export const Hero: React.FC = () => {
   return (
-    <header className="pt-12 sm:pt-16 pb-8 sm:pb-10 border-b border-neutral-200/80">
+    <header className="pt-12 sm:pt-16 pb-3 sm:pb-4">
       <div className="flex flex-col items-start gap-6">
         {/* Profile Photo: 50% Circular, crisp subtle border */}
         <div className="relative">

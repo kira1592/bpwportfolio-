@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ExternalLink, Github, Check } from 'lucide-react';
-import { projectsData } from '../data/projects';
+import { useProject } from '../hooks/useProjects';
 import { ProjectGallery } from '../components/ProjectGallery';
 
 export const ProjectDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
 
-  const project = projectsData.find((p) => p.slug === slug);
+  const project = useProject(slug);
 
   // Scroll to top on page mount
   useEffect(() => {
